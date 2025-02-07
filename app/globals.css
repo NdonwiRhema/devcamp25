@@ -3,19 +3,74 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: 60 6% 13%;
+  --foreground: 60 30% 96%;
+  --card: 60 6% 15%;
+  --card-foreground: 60 30% 96%;
+  --popover: 60 6% 15%;
+  --popover-foreground: 60 30% 96%;
+  --primary: 39 100% 50%;
+  --primary-foreground: 60 30% 96%;
+  --secondary: 153 43% 42%;
+  --secondary-foreground: 60 30% 96%;
+  --muted: 60 6% 20%;
+  --muted-foreground: 60 30% 96%;
+  --accent: 39 100% 50%;
+  --accent-foreground: 60 30% 96%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 60 30% 96%;
+  --border: 60 6% 20%;
+  --input: 60 6% 20%;
+  --ring: 39 100% 50%;
+  --radius: 0.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Hide scrollbar for Chrome, Safari and Opera */
+.snap-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.snap-container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+.section-dots {
+  @apply fixed right-8 top-1/2 -translate-y-1/2 z-50 space-y-2;
+}
+
+.section-dot {
+  @apply w-3 h-3 rounded-full bg-muted cursor-pointer transition-all duration-300;
+}
+
+.section-dot.active {
+  @apply bg-primary h-6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-snap-align: start;
+  min-height: 100vh;
+  @apply flex items-center justify-center;
+}
+
+.section-content {
+  @apply max-w-7xl mx-auto px-4 w-full py-12;
 }
