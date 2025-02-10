@@ -134,3 +134,103 @@ export const MobileCourseOutline =[
             duration: '4-5 weeks'
         },
 ]
+
+export const WebCourseOutline = [
+    {
+        module : 'MODULE 1 - Advanced HTML5 and Semantic Markup',
+        objectives:[
+            `Master HTML5's advanced features`,
+            'Understand the importance of semantic markup for SEO, accessibility, and code maintainability.',
+        ],
+        learning:[
+            'Semantic HTML Elements',
+            'Forms and Inputs',
+            'Accessibility (a11y) Best Practices',
+        ],
+        duration: '1- 2 weeks'
+    },
+    {
+        module : 'MODULE 2 -  Advanced CSS3 for Styling and Layout',
+        objectives:[
+            'Gain proficiency in modern CSS techniques, from layouts to animations, ',
+            'learn the importance of maintainable CSS code',
+        ],
+        learning:[
+           '  Flexbox and CSS Grid Layouts',
+            'CSS Variables, Preprocessors, and Modular CSS',
+            'CSS Transitions, Animations, and Performance Optimization',],
+        duration: '1-2 weeks'
+    },
+    {
+        module : 'MODULE 3 -  JavaScript and ES6+',
+        objectives:[
+            'Understand core JavaScript concepts and ES6+ features',
+            'Learn best practices for writing clean, efficient JavaScript code.',
+           
+        ],
+        learning:[
+           ' JavaScript ES6+ Features',
+            'Asynchronous JavaScript: Callbacks, Promises, Async/Await',
+            'Advanced DOM Manipulation',
+        ],
+        duration: '1- 2 weeks'
+    },
+    {
+        module : 'MODULE 4 -  ReactJS and Component-Based Architecture',
+        objectives:[
+            'Learn React fundamentals and component-based architecture',
+            'Learn state management and props handling',
+        ],
+        learning:[
+            'JavaScript ES6+ Features',
+            'Asynchronous JavaScript: Callbacks, Promises, Async/Await',
+            'Advanced DOM Manipulation',
+        ],
+        duration: '1- 2 weeks'
+    },
+    {
+        module : 'MODULE 5 -  Version Control, Git, and GitHub',
+        objectives:[
+            'Learn how to use Git for version control',
+            'GitHub for project collaboration and code management.',
+        ],
+        learning:[
+            ' Git Fundamentals',
+            ' Branching, Merging, and Conflict Resolution',
+            'Collaborative Development Best Practices',
+        ],
+        duration: '1- 2 weeks'
+    },
+    {
+        module : 'MODULE 6 -  Web Performance, Testing, and Deployment',
+        objectives:[
+            'Learn how to optimize web performance, ',
+            'Learn how to implement automated testing',
+            'Learn how to deploy a web application to production',
+        ],
+        learning:[
+            
+            'Web Performance Optimization Techniques',
+            'Testing and Test-Driven Development (TDD)',
+            'Continuous Integration, Deployment, and Hosting',
+        ],
+        duration: '1- 2 weeks'
+    },
+    {
+        module : 'MODULE 7 -  Capstone Project',
+        objectives:[
+            'Build a complete, production-ready web application that includes a front-end developed ',
+            'Use React, also optimize for performance, and deploy to a live environment.',
+        ],
+        learning:[
+            'Build a full-stack web application with at least 5 pages and 3 major components.',
+            'Integrate third-party APIs to fetch dynamic data.',
+            'Ensure responsive design across all devices.',
+            'Implement advanced features such as authentication, form validation, and performance optimization.',
+            'Create tests for core functionalities and deploy the application to a live server.',
+        ],
+        duration: '4-5 weeks'
+    },
+ 
+    
+]

@@ -4,10 +4,10 @@ import { ChevronDownCircle, ChevronUpCircle } from 'lucide-react'
 import React, { useState } from 'react'
 
 interface Outline{
-    module : string,
+    module :string,
     objectives:string[],
     learning:string[],
-    duration: string
+    duration:string
 }
 
 const CourseSection = (props:Outline) => {

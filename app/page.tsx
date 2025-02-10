@@ -102,7 +102,7 @@ export default function Home() {
                   Build modern, high-performance web applications using Next.js, the popular React
                   framework. Learn server-side rendering, static site generation, and API integration.
                 </p>
-                <CustomButtons title="Learn More" url="/Mobile" />
+                <CustomButtons title="Learn More" url="/Web" />
               </CardContent>
             </Card>
 
@@ -166,7 +166,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div>
               <h3 className="text-xl font-bold mb-4">Contact Us</h3>
-              <p>Email: info@devcamp.com | contact.palstudios@gmail.com | info@kadoshsoftwares.com</p>
+              <p>Email: contact.palstudios@gmail.com | info@kadoshsoftwares.com  | devcamp25@kadoshsoftwares.com</p>
              
             </div>
             <div>
